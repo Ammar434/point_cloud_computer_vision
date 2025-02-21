@@ -1,0 +1,19 @@
+\begin{tabular}{llrrrrrr}
+\toprule
+ &  & \multicolumn{3}{r}{mean} & \multicolumn{3}{r}{std} \\
+ &  & chamfer_distance & mse & normal_consistency & chamfer_distance & mse & normal_consistency \\
+dataset_type & method &  &  &  &  &  &  \\
+\midrule
+\multirow[t]{4}{*}{real} & Bilateral & 0.005400 & 0.000100 & 0.953100 & 0.000600 & 0.000000 & 0.040500 \\
+ & Guided Filter & 0.001000 & 0.000000 & 0.989100 & 0.000400 & 0.000000 & 0.009800 \\
+ & Weighted multi projection & 0.001000 & 0.000000 & 0.989100 & 0.000400 & 0.000000 & 0.009800 \\
+ & bipartite_graph_denoising & 0.018100 & 0.001700 & 0.884500 & 0.006800 & 0.001500 & 0.014700 \\
+\cline{1-8}
+\multirow[t]{5}{*}{synthetic} & Bilateral & 0.005300 & 0.000000 & 0.970100 & 0.003200 & 0.000100 & 0.054400 \\
+ & Guided Filter & 0.006200 & 0.000100 & 0.962100 & 0.003400 & 0.000100 & 0.067700 \\
+ & Noisy & 0.006000 & 0.000000 & 0.965900 & 0.003600 & 0.000100 & 0.062300 \\
+ & Weighted multi projection & 0.006200 & 0.000100 & 0.962100 & 0.003400 & 0.000100 & 0.067700 \\
+ & bipartite_graph_denoising & 0.006700 & 0.000100 & 0.956100 & 0.003000 & 0.000100 & 0.080500 \\
+\cline{1-8}
+\bottomrule
+\end{tabular}

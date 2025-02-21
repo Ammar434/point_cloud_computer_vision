@@ -1,0 +1,28 @@
+,,mean,mean,mean,std,std,std
+,,chamfer_distance,mse,normal_consistency,chamfer_distance,mse,normal_consistency
+method,model,,,,,,
+Bilateral,bunny,0.0045,0.0,0.9696,0.0023,0.0,0.0616
+Bilateral,cube,0.0081,0.0001,0.9921,0.0045,0.0001,0.0098
+Bilateral,dragon,0.005,0.0,0.9418,0.0022,0.0,0.0741
+Bilateral,sphere,0.0046,0.0,0.9787,0.0028,0.0,0.0351
+Bilateral,vase,0.0041,0.0,0.9684,0.0023,0.0,0.0658
+Guided Filter,bunny,0.0056,0.0,0.9606,0.0026,0.0,0.0803
+Guided Filter,cube,0.0088,0.0001,0.9891,0.0048,0.0001,0.0176
+Guided Filter,dragon,0.0059,0.0,0.9345,0.0024,0.0,0.0862
+Guided Filter,sphere,0.0057,0.0,0.9683,0.0036,0.0,0.0504
+Guided Filter,vase,0.0053,0.0,0.9581,0.0026,0.0,0.0839
+Noisy,bunny,0.0051,0.0,0.9656,0.003,0.0,0.0728
+Noisy,cube,0.0087,0.0001,0.9891,0.0048,0.0001,0.0175
+Noisy,dragon,0.0053,0.0,0.9421,0.0029,0.0,0.0835
+Noisy,sphere,0.0056,0.0,0.9691,0.0036,0.0,0.0464
+Noisy,vase,0.0049,0.0,0.9633,0.0029,0.0,0.0752
+Weighted multi projection,bunny,0.0056,0.0,0.9606,0.0026,0.0,0.0803
+Weighted multi projection,cube,0.0088,0.0001,0.9891,0.0048,0.0001,0.0176
+Weighted multi projection,dragon,0.0059,0.0,0.9345,0.0024,0.0,0.0862
+Weighted multi projection,sphere,0.0057,0.0,0.9683,0.0036,0.0,0.0504
+Weighted multi projection,vase,0.0053,0.0,0.9581,0.0026,0.0,0.0839
+bipartite_graph_denoising,bunny,0.0056,0.0,0.9536,0.0023,0.0,0.0975
+bipartite_graph_denoising,cube,0.0102,0.0002,0.9862,0.0034,0.0001,0.0225
+bipartite_graph_denoising,dragon,0.0058,0.0001,0.9269,0.0022,0.0,0.0993
+bipartite_graph_denoising,sphere,0.0065,0.0001,0.9627,0.0024,0.0,0.0599
+bipartite_graph_denoising,vase,0.0053,0.0,0.9509,0.0024,0.0,0.1026
